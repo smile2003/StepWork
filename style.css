@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(255, 184, 61);
+  background: linear-gradient(90deg, rgb(255, 184, 61) 0%, rgb(219, 6, 6) 100%, rgb(255, 115, 0) 100%, rgb(93, 116, 7) 100%, rgb(121, 9, 111) 100%);
+}
+
+section {
+  width: 800px;
+  height: 400px;
+  margin: 50px auto;
+  box-shadow: 0px 0px 20px -4px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+section .d1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 5px 4px 10px 0px;
+  position: relative;
+  left: -60px;
+  background: rgb(255, 184, 61);
+  background: linear-gradient(90deg, rgb(255, 184, 61) 0%, rgb(246, 174, 97) 0%, rgb(219, 6, 6) 100%, rgb(255, 115, 0) 100%, rgb(93, 116, 7) 100%, rgb(121, 9, 111) 100%);
+}
+section .d2 {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+section .d2 h3 {
+  font-size: 30px;
+}
+section .d2 button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgb(255, 184, 61) 0%, rgb(246, 174, 97) 0%, rgb(219, 6, 6) 100%, rgb(255, 115, 0) 100%, rgb(93, 116, 7) 100%, rgb(121, 9, 111) 100%);
+}
+section .d2 button:hover {
+  background: white;
+  border: 1px solid black;
+  color: black;
+}
+section .d3 {
+  width: 20px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+section .d3 .w {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gray;
+}
+section .d3 .r {
+  width: 10px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: orangered;
+}/*# sourceMappingURL=style.css.map */
